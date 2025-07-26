@@ -1,4 +1,4 @@
-# 🐮 Halal Prani – E-commerce Platform
+# 🐮 🐔 Halal Prani – E-commerce Platform
 
 Welcome to **Halal Prani**, a full-featured e-commerce web application focused on buying and selling meat online. Built with modern web technologies, this platform provides a smooth, responsive, and user-friendly experience for both buyers and sellers.
 
