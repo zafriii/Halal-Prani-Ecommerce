@@ -1,0 +1,13 @@
+.related-products-wrapper {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.related-products-wrapper h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+

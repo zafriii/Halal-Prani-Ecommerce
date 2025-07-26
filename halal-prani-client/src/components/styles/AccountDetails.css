@@ -1,0 +1,195 @@
+.account-details-section {
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0 auto; 
+  box-sizing: border-box;
+}
+
+.account-details-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.form-group {
+  margin-bottom: 10px; 
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  padding-right: 40px;
+  border: 1px solid #F2F2F2;
+  background-color: #F2F2F2;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  outline: none;
+  /* border-color: #f8b71d; */
+  border: 2px solid  #f8b71d;
+}
+
+
+.form-description {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.password-change-section {
+  border: 2px solid #c7c1c1; 
+  padding: 20px;
+  border-radius: 2px;
+  position: relative;
+  padding-top: 40px;
+  background-color: #fff; 
+  margin-top: 30px;
+}
+
+.password-change-section h3 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  position: absolute;
+  top: -12px; 
+  left: 20px; 
+  transform: none;
+  background-color: white; 
+  padding: 0 10px; 
+  z-index: 2; 
+  white-space: nowrap;
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 12px;
+  top: 65%; 
+  transform: translateY(calc(-50% + 10px)); 
+  cursor: pointer;
+  color: #999;
+  font-size: 1.1em;
+}
+
+.password-toggle-icon:hover {
+  color: #333;
+}
+
+.save-changes-btn {
+  background-color: #f8b71d; 
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  align-self: flex-start; 
+  margin-top: 20px;
+}
+
+.save-changes-btn:hover {
+  background-color: #e0a300; 
+  transform: translateY(-1px);
+}
+
+
+@media (max-width: 768px) {
+  .account-details-section {
+    padding: 20px;
+    max-width: 100%; 
+  }
+
+  .form-group label {
+    font-size: 0.85em;
+  }
+
+  .form-group input {
+    padding: 8px 10px;
+    font-size: 0.95em;
+  }
+
+  .form-description {
+    font-size: 0.8em;
+  }
+
+  .password-change-section {
+    padding: 15px;
+  }
+
+  .password-change-section h3 {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+
+  .password-toggle-icon {
+    font-size: 1em;
+    transform: translateY(calc(-50% + 8px)); 
+  }
+
+  .password-toggle-icon {
+    position: absolute;
+    right: 12px;
+    top: 75%;
+  }
+
+  .save-changes-btn {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .account-details-section {
+    padding: 15px;
+  }
+
+  .form-group label {
+    font-size: 0.8em;
+  }
+
+  .form-group input {
+    padding: 7px 8px;
+    font-size: 0.9em;
+  }
+
+  .form-description {
+    font-size: 0.75em;
+  }
+
+  .password-change-section {
+    padding: 10px;
+  }
+
+  .password-change-section h3 {
+    font-size: 0.95em;
+    margin-bottom: 10px;
+  }
+
+  .password-toggle-icon {
+    font-size: 0.9em;
+    right: 8px;
+    transform: translateY(calc(-50% + 7px));
+  }
+
+  .save-changes-btn {
+    padding: 8px 15px;
+    font-size: 0.85em;
+  }
+}

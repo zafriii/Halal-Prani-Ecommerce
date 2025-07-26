@@ -1,0 +1,294 @@
+.dashboard-page {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.dashboard-header-banner {
+  color: #333;
+  padding: 30px 0;
+  text-align: left;
+  margin: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.dashboard-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+ 
+}
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  
+}
+
+.breadcrumb-link {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+}
+
+.breadcrumb-link:hover {
+  color: #f8b71d;
+}
+
+.breadcrumb-separator {
+  margin: 0 5px;
+  color: #999;
+}
+
+.breadcrumb-current {
+  color: #333;
+  font-weight: bold;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dashboard-content-area {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.dashboard-sidebar {
+  flex-shrink: 0;
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid #c7c1c1;
+  border-radius: 2px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.sidebar-user-info {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  
+}
+
+.user-avatar-icon {
+  color: #ccc;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #555;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar-link:hover {
+ 
+  color: #f8b71d;
+}
+
+.sidebar-link.active {
+  color: #f8b71d;
+  font-weight: bold;
+}
+
+.sidebar-link.active svg {
+  color: #f8b71d;
+}
+
+.sidebar-link svg {
+  color: #333;
+  flex-shrink: 0;
+}
+
+.dashboard-main-content {
+  flex-grow: 1;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.warning-box {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.95em;
+}
+
+.warning-icon {
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1;
+  color: #856404;
+}
+
+.welcome-text {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.welcome-text strong {
+  font-weight: bold;
+}
+
+.logout-inline-btn {
+  background: none;
+  border: none;
+  color: #f8b71d;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-description {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+}
+
+.dashboard-description a {
+  color: #f8b71d;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.dashboard-description a:hover {
+  color: #f8b71d;
+}
+
+
+@media(max-width:870px){
+  .dashboard-sidebar {
+  flex-shrink: 0;
+  width: 280px;
+  }
+}
+
+@media(max-width:768px){
+  .dashboard-sidebar {
+    flex-shrink: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashboard-header-banner {
+    padding: 20px 0;
+  }
+
+  .dashboard-header-content {
+    padding: 0 15px;
+  }
+
+  .dashboard-title {
+    font-size: 1.8rem;
+  }
+
+  .breadcrumbs {
+    font-size: 0.8rem;
+  }
+
+  .dashboard-content-area {
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  .dashboard-sidebar {
+    padding: 10px;
+  }
+
+  .sidebar-user-info {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+  }
+
+  .user-avatar-icon {
+    size: 50px;
+  }
+
+  .user-name {
+    font-size: 1.1em;
+  }
+
+  .sidebar-link {
+    padding: 8px 10px;
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .sidebar-link svg {
+    size: 14px;
+  }
+
+  .dashboard-main-content {
+    padding: 15px;
+  }
+
+  .warning-box {
+    font-size: 0.85em;
+    padding: 10px 12px;
+  }
+
+  .welcome-text,
+  .dashboard-description {
+    font-size: 0.9em;
+  }
+}

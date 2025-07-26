@@ -1,0 +1,182 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 900px;
+  width: 95%;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.modal-close:hover {
+  transform: rotate(180deg);
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.modal-img-wrapper {
+  flex: 1 1 40%;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.modal-info {
+  flex: 1 1 55%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.modal-name {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.modal-category,
+.modal-description,
+.modal-dishes,
+.modal-price {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color:#666;
+}
+
+
+.modal-price-display{
+    color: #FFD700 ;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.modal-description{
+   font-size: 15px;
+}
+
+
+.quantity-cart-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.quantity-selector button {
+  background: #f4f4f4;
+  border: none;
+  padding: 8px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.2s ease;
+}
+
+.quantity-selector button:hover {
+  background: #e0e0e0;
+}
+
+.quantity-selector span {
+  padding: 8px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  min-width: 30px;
+  text-align: center;
+}
+
+.add-to-cart-btn {
+  background-color: #fcb900;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #e0a500;
+}
+
+.share-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px; 
+  font-size: 16px;
+  font-weight: 700;
+  color: #444;
+  margin-top: 40px;
+
+}
+
+.share-icons svg {
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.share-icons svg:hover {
+  color: #fcb900; 
+  transform: scale(1.3) rotate(10deg);
+}
+
+.share-icons span {
+  font-weight: 600;
+  font-size: 14px;
+ 
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

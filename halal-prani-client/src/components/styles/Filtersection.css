@@ -1,0 +1,37 @@
+.filter-section {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 15px;
+  padding-left: 20px;
+  margin-top: 40px;
+  margin-right: 7%;
+}
+
+@media(max-width:1920px){
+  .filter-section { 
+    margin-right: 19%;
+}
+
+}
+
+@media(max-width:1400px){
+  .filter-section { 
+    margin-right: 7%;
+}
+
+}
+
+@media(max-width:768px){
+  .filter-section {
+    flex-direction: column;
+  }
+ 
+
+  .filter-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}

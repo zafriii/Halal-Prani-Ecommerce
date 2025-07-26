@@ -1,0 +1,77 @@
+.member-navbar{
+  margin: 20px 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+ 
+}
+
+.member-section,
+.coupon-card {
+  width: 100%;
+  max-width: 500px; 
+}
+
+.member-section h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.member-section p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.member-btns button{
+    background-color: #f8b71d;
+    border: 1px solid #f8b71d;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.coupon-card {
+  background-color: #fff;
+  padding: 40px 30px;
+  max-width: 550px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coupon-card h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.coupon-card .join {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.coupon-card p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.coupon-code {
+  background-color: #f5b400;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 12px 0;
+  letter-spacing: 1px;
+}
