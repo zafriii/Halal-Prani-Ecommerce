@@ -7,8 +7,7 @@ Welcome to **Halal Prani**, a full-featured e-commerce web application focused o
 
 🔗 **Project Website:** [https://halal-prani.vercel.app](https://halal-prani.vercel.app)
 
-📺 **Demo Video:** *[Insert your video link here]*
-
+📺 **Demo Video:** [Watch the demo](https://drive.google.com/file/d/1eTYAia6eM5tEj_zj_gVQDC3mpAebOzQP)
 
 ## 🧰 Tech Stack
 
